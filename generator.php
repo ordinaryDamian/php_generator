@@ -24,7 +24,7 @@
         $passwdInputVelke = $passwdInputMale . $velkePismenka;
     }
 
-    echo $passwdInputVelke;
+    // echo $passwdInputVelke;
     
     // //premenne na zadavanie 
     // // $malePismenka = "abcdefghijklmnopqrstuvwxyz";
