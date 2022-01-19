@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generátor</title>
+</head>
+<body>
+    <h1>Generátor hesla:</h1>
+    <form action="generator.php" method="GET">
+        <label for="malePismena">Male písmená:</label>
+        <input type="checkbox" name="malePismena" value="checkox_male"> 
+        <br>
+        <label for="velkePismena">Velke pismená:</label>
+        <input type="checkbox" name="velkePismena" value="checkox_velke">
+        <br>
+        <label for="cisielka">Čísla:</label>
+        <input type="checkbox" name="cisielka" value="checkox_cisla">
+        <br>
+        <label for="specialne">Špecialne znaky:</label>
+        <input type="checkbox" name="specialne" value="checkox_specialne">
+        <br>
+        <label for="dlzka">Dĺžka:</label>
+        <br>
+        <input type="text" name="dlzka">
+        <br>
+        <input type="submit" value="Generovať">
+    </form>
+</body>
+</html>
